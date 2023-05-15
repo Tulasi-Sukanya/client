@@ -1,0 +1,16 @@
+.filter-container{
+    height: auto;
+    cursor:pointer;
+}
+.item{
+    font-size: 1rem;
+    color:rgb(29, 27, 27);
+    text-decoration: none;
+}
+.filter-by-rating{
+    cursor: pointer;
+}
+.star-item:hover{
+    border:2px solid black;
+    color: goldenrod;
+}

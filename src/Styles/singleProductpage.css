@@ -1,0 +1,50 @@
+.card{
+  padding: 1rem 10rem;
+}
+
+/* .singleproduct{
+  position:relative;
+  left:25%;
+}
+.card{
+  height: 25rem;
+  width:40rem;
+  padding: 1% 5%;
+}
+.card_title h3{
+  text-align: center;
+}
+.card__body .half .featured_text{
+  position: absolute;
+  top:79%;
+  right: 23%;
+}
+.oprice{
+  color: gray;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.price{
+  font-weight: bold;
+}
+.image{
+  position: absolute;
+  left:10%;
+}
+.description{
+  position: absolute;
+  top:35%;
+  right: 15%;
+}
+.reviews .product-rating{
+  position: absolute;
+  top:59%;
+  right: -50%;
+}
+.stock{
+  position: absolute;
+  top:87%;
+  right: 33%;
+  font-style: italic;
+  color: darkgreen;
+} */
