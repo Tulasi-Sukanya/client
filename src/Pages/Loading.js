@@ -6,8 +6,7 @@ const Loading = () => {
   return (
     <Layout title={"E-shop Loading"}>
     <>
-      {/* <span className='page-loading'></span> */}
-      <div class="hm-spinner"></div>
+      <div className='loading'></div>
     </>
     </Layout>
   )

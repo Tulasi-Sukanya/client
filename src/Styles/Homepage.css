@@ -1,0 +1,5 @@
+@media screen and (max-width:1000px) and (min-width:300px){
+    .e-shop-guidelines{
+        flex-direction: column;
+    }
+}

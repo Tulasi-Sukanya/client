@@ -13,7 +13,7 @@ const ApiFile=(props)=>{
             "catagory": "Accessories",
             "name": "Apple AirPod Pro",
             "ratting": "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-            "image": "https://images.thequint.com/thequint/2019-10/e1dd655f-57f4-4263-9ba3-bb557c5e704f/Screen_Shot_2019_10_28_at_10_30_45_PM.png?auto=format%2Ccompress",
+            "image": "https://th.bing.com/th/id/OIP.rCa0uNacMHycnjGbabrRoAAAAA?pid=ImgDet&rs=1",
             "price": 18000,
             "oprice": "₹20,499"   
         },
@@ -31,7 +31,7 @@ const ApiFile=(props)=>{
             "catagory": "Accessories",
             "name": "Apple AirPod Pro A2084",
             "ratting": "https://t4.ftcdn.net/jpg/02/74/86/39/360_F_274863915_4JnfDXwTaTsjg5w5e7keElOipBswjAte.jpg",
-            "image": "https://th.bing.com/th/id/OIP.JKIL-BAJAWldzBum8XlphAHaJ4?pid=ImgDet&rs=1",
+            "image": "https://th.bing.com/th/id/OIP.Sk3BAB5tiD8vpo5mU1Hv4QHaHz?pid=ImgDet&rs=1",
             "price": 20000,
             "oprice": "₹25,000"   
         },

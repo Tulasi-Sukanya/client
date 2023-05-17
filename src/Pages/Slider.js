@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React,{useEffect, useState} from 'react'
 import '../App.css'
-
 import img1 from '../Components/images/img1.jpg'
 import img2 from '../Components/images/img2.jpg'
 import img3 from '../Components/images/img3.jpg'
@@ -21,8 +20,7 @@ function Slider() {
             },5000)
         },[])
   return (
-    <div>
-        {/* <img src={allimg[img]} alt="Not found" className='image-slider' /> */}
+    <>
         <section className='slider-wrapper-1 py-5'>
           <div className='container-xxl'>
             <div className='row'>
@@ -34,7 +32,7 @@ function Slider() {
             </div>
           </div>
         </section>
-    </div>
+    </>
   )
 }
 

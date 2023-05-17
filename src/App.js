@@ -7,7 +7,6 @@ import Contact from './Pages/Contact'
 import Policy from './Pages/Policy'
 import PageNotFound from './Pages/PageNotFound'
 import Loading from './Pages/Loading'
-
 import Register from './Pages/Authentication/register'
 import Login from './Pages/Authentication/login'
 import ForgotPasssword from './Pages/Authentication/ForgotPassword'
@@ -17,16 +16,13 @@ import MacBook from './Components/ProductPages/MacBook'
 import Laptops from './Components/ProductPages/Laptops'
 import Accessories from './Components/ProductPages/Accessories'
 import CartPage from './Pages/CartPage'
-// import Cart from './Pages/Cart'
 import Allproducts from './Components/ProductPages/Allproducts'
 import Telivision from './Components/ProductPages/Telivision'
 import SingleProductPage from './Components/ProductPages/SingleProductPage'
-import Wishlist from './Pages/Wishlist'
 import ProductNotAvaialble from './Components/ProductPages/ProductNotAvaialble'
 import Feedback from './Pages/Feedback'
 import Logout from './Pages/Authentication/logout'
 import PriceFilter from './Pages/PriceFilter'
-// import { AscendingFilter } from './Pages/AscendingFilter'
 
 const App = () => {
   return (
@@ -55,16 +51,13 @@ const App = () => {
       <Route path="/all" element={<Allproducts />} />
       
       <Route path="/cart" element={<CartPage />} />
-      <Route path="/wishlist" element={<Wishlist />} />
       <Route path="/singleproduct" element={<SingleProductPage />} />
       <Route path="/notavailable" element={<ProductNotAvaialble />} />
       <Route path="/pricefilter" element={<PriceFilter />} />
-      {/* <Routes path="/asc" element={<AscendingFilter />} /> */}
 
     </Routes>
     </ApiFile>
     </>
   )
 }
-  // "proxy": " http://localhost:6000/",
 export default App

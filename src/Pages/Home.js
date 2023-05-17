@@ -1,16 +1,15 @@
 import React from 'react'
 import Layout from '../Components/Layout/Layout'
 import Slider from './Slider'
-// import Hotproductsslider from './Hotproductsslider'
-
+import ProductLoadMore from './ProductLoadMore'
 
 const Home = () => {
+  // const [context] =useContext(store);
   return (
     <Layout title={"Home"}>
     <div>
       <Slider />
-    </div>
-    <h3 className='text-center'>OUR SERVICES</h3>
+      <h3 className='text-center'>OUR SERVICES</h3>
       <div className='eshop-guidelines d-flex align-items-center justify-content-center p-4 gap-4'>
         <div className='home-card bg-light p-3'>
           <h6 className='text-center'>Free Shipping</h6>
@@ -28,7 +27,8 @@ const Home = () => {
           <p>We focus on finding trending products.So, all latest trendy products available in E-shop.New Launch products are up to dated..</p>
         </div>
       </div>
-      {/* <Hotproductsslider /> */}
+      <ProductLoadMore />
+    </div>
     </Layout>
   )
 }

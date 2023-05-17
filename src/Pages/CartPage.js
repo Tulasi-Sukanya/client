@@ -7,18 +7,6 @@ import axios from 'axios';
 
 const CartPage = (props) => {
   const {items,isEmpty,totalUniqueItems,totalItems,cartTotal,updateItemQuantity,removeItem,emptyCart} = useCart();
-    // const Total = items.map((item)=>item.quantity * item.price).reduce((sum,value)=>sum+value,0);
-  // const handlePrice =()=>{
-  //   let totalAmount=0;
-  //   items.map((item)=>{
-  //     totalAmount += item.quantity * +item.price
-  //   })
-  //   setPrice(totalAmount);
-  //  };
-   
-  //  useEffect(()=>{
-  //   handlePrice()
-  //  });
 //payment
 
 const initpayment=(data)=>{

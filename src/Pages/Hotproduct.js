@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ReactStars from 'react-rating-stars-component'
-import '../../Styles/ProductCard.css'
+import '../Styles/ProductCard.css'
 import { useCart } from 'react-use-cart'
 
-const ProductCard = (props) => {
+const Hotproduct = (props) => {
     const  {addItem} = useCart();
   return (
     <>
     <div className='product-card col-11 col-md-6 col-lg-3 mx-0 mb-4'>
+        <div className="badge" style={{ position: "absolute",right:"-6%",top:"4%",fontWeight:"700",background:"red",
+    color: "#fff",padding:"3px 10px",transform: "rotate(40deg)"}}>HOT</div>
         <div className='card p-0 overflow-hidden h-100 shadow'>
             <div className="product-image card-img-top img-fluid">
                 <img src={props.image} alt="error" className='item-image'/>
@@ -32,4 +34,5 @@ const ProductCard = (props) => {
   )
 }
 
-export default ProductCard
+export default Hotproduct;
+

@@ -9,22 +9,23 @@ import Loading from '../../Pages/Loading'
 
 const Accessories = (props) =>{
     const [context] =useContext(store);
-    const [product,setProduct]=useState([]);
+    // const [product,setProduct]=useState([]);
     const [loading,setLoading]=useState(false);
 
-    useEffect(() => {
-        setLoading(false)
-        axios
-          .get("http://localhost:8000/get-product")
-          .then((res) => {
-            console.log(res.data);
-            setProduct(res.data);
-            setLoading(false)
-          })
-          .catch((error) => {
-            console.log(error);
-          });
-      }, []);
+    // useEffect(() => {
+    //     setLoading(false)
+    //     axios
+    //       .get("http://localhost:8000/get-product")
+    //       .then((res) => {
+    //         console.log(res.data);
+    //         console.log(product);
+    //         setProduct(res.data);
+    //         setLoading(false)
+    //       })
+    //       .catch((error) => {
+    //         console.log(error);
+    //       });
+    //   }, []);
     return(
     <Layout title={"E-Shop Accessories"}>
         <div className='container-fluid productpage'>

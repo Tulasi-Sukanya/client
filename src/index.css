@@ -34,9 +34,9 @@ code {
   box-sizing: border-box;
   /* color:black; */
 }
-/* body{
+body{
   background-color: lightsteelblue;
-} */
+}
 :root{
   --color-bg:#131921;
   --color-bb:#3b4149;
@@ -72,6 +72,12 @@ code {
   color: #febd69;
   /* background-color: whitesmoke; */
   /* color: #131921; */
+}
+.navbar-toggler-icon{
+  color:#fff;
+  font-weight: 700;
+  font-size: xx-large;
+  padding: 0;
 }
 /* .header-main{
   background-color: var(--color-mbg);
@@ -257,3 +263,9 @@ ul.social-icons {
   align-items: center;
   justify-content: center;
 }
+
+/* @media screen and (max-width:500px) and (min-width:300px){
+  .header-top{
+    display: none;
+  }
+} */
