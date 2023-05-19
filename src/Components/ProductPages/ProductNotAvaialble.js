@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '../Layout/Layout'
 import Filtersection from '../../Pages/Filtersection'
-// import '../../Styles/ProductPage.css'
-// import '../../Styles/filtersection.css'
 
 
 const ProductNotAvaialble = () => {

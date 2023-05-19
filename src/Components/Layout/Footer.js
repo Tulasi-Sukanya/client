@@ -60,7 +60,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <hr className='text-white'/> */}
     </footer>
     <footer className='py-3'>
       <div className='footer-container-bottom'>
