@@ -1,7 +1,7 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import Layout from '../Components/Layout/Layout';
-import axios from 'axios';
+// import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 // Backend = "http://localhost:8000";

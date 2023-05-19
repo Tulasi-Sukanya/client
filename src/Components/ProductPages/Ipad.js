@@ -14,9 +14,9 @@ const Ipad = (props) =>{
     const [loading,setLoading]=useState(false);
 
     useEffect(() => {
-        setLoading(false)
+        setLoading(true)
         axios
-          .get("http://localhost:8000/get-product")
+          .get("https://mernecommercebackend-7api.onrender.com/get-product")
           .then((res) => {
             console.log(res.data);
             setProduct(res.data);

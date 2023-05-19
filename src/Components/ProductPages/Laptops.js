@@ -14,8 +14,8 @@ const Laptops = (props) =>{
     const [loading,setLoading]=useState(false);
 
     useEffect(() => {
-        setLoading(false)
-        axios.get("http://localhost:8000/get-product")
+        setLoading(true)
+        axios.get("https://mernecommercebackend-7api.onrender.com/get-product")
           .then((res) => {
             console.log(res.data);
             setProduct(res.data);

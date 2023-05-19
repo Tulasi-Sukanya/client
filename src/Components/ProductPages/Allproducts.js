@@ -13,9 +13,9 @@ const All = (props) =>{
     const [loading,setLoading]=useState(false);
 
     useEffect(() => {
-        setLoading(false)
+        setLoading(true)
         axios
-          .get("http://localhost:8000/get-product")
+          .get("https://mernecommercebackend-7api.onrender.com/get-product")
           .then((resolve) => {
             console.log(resolve.data);
             setProduct(resolve.data);
