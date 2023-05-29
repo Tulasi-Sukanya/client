@@ -24,7 +24,7 @@ const Hotproduct = (props) => {
                     <span className='item-oprice'>{props.oprice}</span>
                 </div>
                 <div className='btn-actions'>
-                    <Link to="/" ><button className='buy-btn'>Buy Now</button></Link>&nbsp; 
+                    <Link to="https://rzp.io/l/qAaQdQR" ><button className='buy-btn'>Buy Now</button></Link>&nbsp; 
                     <Link to="/cart"><button className='cart-btn' onClick={()=>addItem(props.item)}>Add to Cart</button></Link>
                 </div>    
             </div>     
