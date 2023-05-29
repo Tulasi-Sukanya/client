@@ -7,7 +7,7 @@ export default class logout extends Component {
  logout = () => {
     localStorage.clear();
     toast.success("Logout Successfull !!");
-    window.location.href = "/login";
+    window.location.href = "/login"
   }
  no=()=>{
     window.location.href="/"
